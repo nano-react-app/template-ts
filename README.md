@@ -4,6 +4,12 @@ The default template project for [nano-react-app](https://github.com/adrianmcli/
 
 - `npm start` — This will spawn a development server with a default port of `1234`.
 - `npm run build` — This will output a production build in the `dist` directory.
+- `npm run typecheck` — This will run `tsc --noEmit` which basically just typechecks your project.
+- `npm run typewatch` — This will run `tsc --noEmit --watch` which will typecheck your project as you make changes.
+
+## Typechecking
+
+Unforunately, Parcel does not perform typechecking. So you will need to make use of the `typecheck` and `typewatch` scripts above.
 
 ## Custom port
 
