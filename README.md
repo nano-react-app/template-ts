@@ -1,6 +1,6 @@
-# Nano React App Typescript Template
+# Nano React App Default Javascript Template
 
-The Typescript template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
+The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
 
 - `npm start` — This will spawn a development server with a default port of `1234`.
 - `npm run build` — This will output a production build in the `dist` directory.
@@ -21,7 +21,7 @@ parcel index.html -p 3000
 
 ## Adding styles
 
-You can use CSS files with simple ES2015 `import` statements anywhere in your code:
+You can use CSS files with simple ES2015 `import` statements anywhere in your Javascript:
 
 ```js
 import "./index.css";
