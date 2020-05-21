@@ -1,19 +1,8 @@
 import * as React from "react";
 
-export default class extends React.Component {
-  state = {
-    count: 0,
-  };
-
-  increment = async () => {
-    this.setState({ count: this.state.count + 1 });
-  };
-
-  render() {
-    return (
-      <>
-        <button onClick={this.increment}>clicks {this.state.count}</button>
-      </>
-    );
-  }
-}
+export default () => (
+  <>
+    <h1>Welcome to React Parcel Micro App!</h1>
+    <p>Hard to get more minimal than this React app.</p>
+  </>
+);
