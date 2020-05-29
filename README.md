@@ -1,4 +1,4 @@
-# Nano React App Default Javascript Template
+# Nano React App Default Typescript Template
 
 The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
 
