@@ -1,8 +1,8 @@
 # Nano React App Default Typescript Template
 
-The default template project for [nano-react-app](https://github.com/adrianmcli/nano-react-app).
+The default template project for [nano-react-app](https://github.com/nano-react-app/nano-react-app).
 
-- `npm start` — This will spawn a development server with a default port of `1234`.
+- `npm start` — This will spawn a development server with a default port of `3000`.
 - `npm run build` — This will output a production build in the `dist` directory.
 - `npm run typecheck` — This will run `tsc --noEmit` which basically just typechecks your project.
 - `npm run typewatch` — This will run `tsc --noEmit --watch` which will typecheck your project as you make changes.
@@ -16,13 +16,13 @@ Unforunately, Parcel does not perform typechecking. So you will need to make use
 You can use the `-p` flag to specify a port for development. To do this, you can either run `npm start` with an additional flag:
 
 ```
-npm start -- -p 3000
+npm start -- --port 1234
 ```
 
 Or edit the `start` script directly:
 
 ```
-parcel index.html -p 3000
+vite --port 1234
 ```
 
 ## Adding styles
@@ -51,9 +51,9 @@ With Parcel's `--public-url` flag, use the following scripts for deployment:
 
 ```
 "scripts": {
-  "start": "parcel index.html",
-  "build": "parcel build index.html --public-url '.'",
-  "predeploy": "rm -rf dist && parcel build index.html --public-url '.'",
+  "start": "vite",
+  "build": "vite build",
+  "predeploy": "rm -rf dist && vite build",
   "deploy": "gh-pages -d dist"
 },
 ```
