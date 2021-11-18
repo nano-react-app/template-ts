@@ -9,7 +9,7 @@ The default template project for [nano-react-app](https://github.com/nano-react-
 
 ## Typechecking
 
-Unforunately, Parcel does not perform typechecking. So you will need to make use of the `typecheck` and `typewatch` scripts above.
+Unfortunately, ViteJS does not perform typechecking. So you will need to make use of the `typecheck` and `typewatch` scripts above.
 
 ## Custom port
 
