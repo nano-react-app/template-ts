@@ -5,7 +5,7 @@
     "scripts": {
         "start": "vite",
         "build": "vite build",
-        "preview":"vite preview",
+        "preview": "vite preview",
         "typecheck": "tsc --noEmit",
         "typewatch": "tsc --noEmit --watch"
     },
@@ -15,10 +15,10 @@
         "react-dom": "^18.2.0"
     },
     "devDependencies": {
+        "@types/react": "^18.0.24",
+        "@types/react-dom": "^18.0.8",
         "babel-preset-nano-react-app": "^0.1.0",
-        "vite": "^3.0.3",
-        "typescript": "^4.7.4",
-        "@types/react": "^18.0.15",
-        "@types/react-dom": "^18.0.6"
+        "typescript": "^4.8.4",
+        "vite": "^3.2.1"
     }
 }
