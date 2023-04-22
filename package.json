@@ -19,6 +19,7 @@
         "@types/react-dom": "^18.0.8",
         "babel-preset-nano-react-app": "^0.1.0",
         "typescript": "^4.8.4",
-        "vite": "^3.2.1"
+        "vite": "^3.2.1",
+        "vite-tsconfig-paths": "^4.2.0"
     }
 }
